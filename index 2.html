@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AH Plomberie Chauffage</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="logo">AH <span>Plomberie</span></div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#realisations">Réalisations</a>
+    <a href="#pourquoi">Pourquoi nous</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="tel:0603849976" class="header-cta">📞 Appeler</a>
+  <button class="burger" id="burger">&#9776;</button>
+</header>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#services" onclick="closeNav()">Services</a>
+  <a href="#realisations" onclick="closeNav()">Réalisations</a>
+  <a href="#pourquoi" onclick="closeNav()">Pourquoi nous</a>
+  <a href="#contact" onclick="closeNav()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-tag">Artisan certifié • Nancy & alentours</p>
+    <h1>Plomberie<br/>&amp; Chauffage<br/><span>de confiance</span></h1>
+    <p class="hero-sub">Intervention rapide 7j/7 · Devis gratuit · Travail soigné</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn btn-primary">Demander un devis</a>
+      <a href="tel:0603849976" class="btn btn-outline">📞 06 03 84 99 76</a>
+    </div>
+  </div>
+  <div class="hero-badge">
+    <span class="badge-number">+500</span>
+    <span class="badge-label">chantiers<br/>réalisés</span>
+  </div>
+  <div class="scroll-hint">↓</div>
+</section>
+
+<!-- BANDEAU URGENCE -->
+<div class="urgency-bar">
+  <span>⚡ Urgence plomberie ?</span>
+  <span>Intervention sous <strong>2h</strong> dans votre secteur</span>
+  <a href="tel:0603849976">Appelez maintenant →</a>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-header">
+    <p class="section-tag">Ce que nous faisons</p>
+    <h2>Nos <em>services</em></h2>
+  </div>
+  <div class="services-grid">
+    <div class="service-card" data-delay="0">
+      <div class="service-icon">🔧</div>
+      <h3>Plomberie générale</h3>
+      <p>Réparation de fuites, remplacement de robinetterie, installation de canalisations, dépannage urgent.</p>
+      <span class="service-arrow">→</span>
+    </div>
+    <div class="service-card featured" data-delay="100">
+      <div class="service-icon">🔥</div>
+      <h3>Chauffage & Chaudières</h3>
+      <p>Installation et remplacement de chaudières gaz, entretien annuel, radiateurs, plancher chauffant.</p>
+      <span class="service-arrow">→</span>
+    </div>
+    <div class="service-card" data-delay="200">
+      <div class="service-icon">🚿</div>
+      <h3>Salle de bain</h3>
+      <p>Création et rénovation complète, pose de carrelage, douche à l'italienne, baignoire balnéo.</p>
+      <span class="service-arrow">→</span>
+    </div>
+    <div class="service-card" data-delay="300">
+      <div class="service-icon">💧</div>
+      <h3>Adoucisseur & Filtration</h3>
+      <p>Installation d'adoucisseurs d'eau, filtres anti-calcaire, osmose inverse, traitement de l'eau.</p>
+      <span class="service-arrow">→</span>
+    </div>
+    <div class="service-card" data-delay="400">
+      <div class="service-icon">🏠</div>
+      <h3>Rénovation cuisine</h3>
+      <p>Raccordement évier, lave-vaisselle, installation de la plomberie pour votre nouvelle cuisine.</p>
+      <span class="service-arrow">→</span>
+    </div>
+    <div class="service-card" data-delay="500">
+      <div class="service-icon">⚡</div>
+      <h3>Dépannage 7j/7</h3>
+      <p>Fuite d'eau, canalisation bouchée, panne de chauffage : nous intervenons en urgence.</p>
+      <span class="service-arrow">→</span>
+    </div>
+  </div>
+</section>
+
+<!-- RÉALISATIONS -->
+<section id="realisations" class="dark-section">
+  <div class="section-header light">
+    <p class="section-tag">Notre travail</p>
+    <h2>Nos <em>réalisations</em></h2>
+  </div>
+  <div class="gallery">
+    <div class="gallery-item large">
+      <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=900&q=80" alt="Salle de bain moderne rénovée" loading="lazy"/>
+      <div class="gallery-caption">Rénovation salle de bain complète</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80" alt="Installation robinetterie" loading="lazy"/>
+      <div class="gallery-caption">Installation robinetterie haut de gamme</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?w=600&q=80" alt="Plomberie moderne" loading="lazy"/>
+      <div class="gallery-caption">Pose canalisations encastrées</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Chaudière installation" loading="lazy"/>
+      <div class="gallery-caption">Installation chaudière à condensation</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Cuisine plomberie" loading="lazy"/>
+      <div class="gallery-caption">Raccordements cuisine neuve</div>
+    </div>
+  </div>
+</section>
+
+<!-- POURQUOI NOUS -->
+<section id="pourquoi">
+  <div class="section-header">
+    <p class="section-tag">Nos engagements</p>
+    <h2>Pourquoi <em>nous choisir</em> ?</h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="why-icon">🏅</div>
+      <h3>Artisan certifié</h3>
+      <p>Qualifié RGE et assuré décennale pour tous vos travaux en toute sérénité.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon">⏱️</div>
+      <h3>Réactivité maximale</h3>
+      <p>Devis sous 24h, intervention sous 2h pour les urgences. Disponible 7 jours sur 7.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon">💰</div>
+      <h3>Devis transparent</h3>
+      <p>Tarifs clairs, sans surprise. Devis gratuit et détaillé avant chaque intervention.</p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon">✨</div>
+      <h3>Finitions soignées</h3>
+      <p>Chaque chantier est réalisé avec soin, propreté garantie à la fin des travaux.</p>
+    </div>
+  </div>
+
+  <!-- Témoignages Google -->
+  <div class="testimonials">
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p>"Super artisan à Villers-lès-Nancy ! Je vous recommande les yeux fermés !"</p>
+      <cite>— Avis Google vérifié</cite>
+    </div>
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p>"Merci beaucoup AH Plomberie Chauffage ! Artisan efficace, pro, travailleur... Continuez comme ça !"</p>
+      <cite>— Zoé R., avis Google vérifié</cite>
+    </div>
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p>"28 ans d'expérience et ça se voit ! Intervention soignée, rapide et tarif transparent. Très satisfait."</p>
+      <cite>— Avis Google vérifié</cite>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="dark-section">
+  <div class="section-header light">
+    <p class="section-tag">Parlons-en</p>
+    <h2>Demandez votre <em>devis gratuit</em></h2>
+  </div>
+  <div class="contact-wrapper">
+    <div class="contact-info">
+      <div class="info-item">
+        <span class="info-icon">📞</span>
+        <div>
+          <strong>Téléphone</strong>
+          <p>06 03 84 99 76</p>
+          <p class="sub">Lun–Ven 8h–18h, urgences disponible</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="info-icon">📧</span>
+        <div>
+          <strong>Email</strong>
+          <p>contact@ah-plomberie.fr</p>
+          <p class="sub">Réponse sous 24h</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="info-icon">📍</span>
+        <div>
+          <strong>Zone d'intervention</strong>
+          <p>Nancy & alentours</p>
+          <p class="sub">Dans un rayon de 50 km autour de Nancy</p>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="info-icon">🕐</span>
+        <div>
+          <strong>Horaires</strong>
+          <p>Lun–Ven : 8h–18h</p>
+          <p class="sub">Fermé le week-end</p>
+        </div>
+      </div>
+    </div>
+    <form id="contactForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nom">Nom complet</label>
+          <input type="text" id="nom" placeholder="Jean Dupont" required />
+        </div>
+        <div class="form-group">
+          <label for="tel">Téléphone</label>
+          <input type="tel" id="tel" placeholder="06 XX XX XX XX" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="jean@email.fr" required />
+      </div>
+      <div class="form-group">
+        <label for="service">Type de prestation</label>
+        <select id="service">
+          <option value="">Sélectionnez un service</option>
+          <option>Plomberie générale</option>
+          <option>Chauffage / Chaudière</option>
+          <option>Rénovation salle de bain</option>
+          <option>Dépannage urgent</option>
+          <option>Autre</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Décrivez votre besoin</label>
+        <textarea id="message" rows="4" placeholder="Décrivez votre projet ou problème..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary full-width">Envoyer ma demande →</button>
+      <p class="form-note">✅ Devis 100% gratuit et sans engagement</p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">AH <span>Plomberie Chauffage</span></div>
+    <p>Artisan plombier chauffagiste certifié — Nancy & alentours (50 km)</p>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#realisations">Réalisations</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="footer-legal">© 2026 AH Plomberie Chauffage · Tous droits réservés</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
